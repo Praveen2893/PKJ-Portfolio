@@ -1,0 +1,68 @@
+*{
+  /*position: relative;*/
+  /*padding-top: 70px;*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  position: relative;
+}
+
+.navbar {
+  background: transparent;
+  left:100;
+  right: 100;
+}
+.navList {
+  padding: 0 50;
+}
+.navList:hover{
+  cursor: pointer;
+}
+#wrapper {
+     position: absolute;
+     height:100%;
+     width:100%;
+}
+.contentDiv{
+  	height: 100%;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+    position: relative;
+}
+
+#section1 {
+   background: linear-gradient( 45deg, #80b3ff, #66ffff );
+   /*position: fixed;
+   z-index: -99;
+   top:0;
+   left: 0;*/
+}
+#aboutLeftContent{
+  margin-top: 10%;
+}
+
+#section2{
+   background: linear-gradient( 45deg, #ff8A80, #ff80ab );
+   /*margin-top: 48%;
+   z-index: -99;
+   top:0;
+   left: 0;*/
+}
+#skillsContent{
+  margin-top: 10%;
+}
+#section3{
+   background: linear-gradient( 45deg, #7986CB, #B39DDB );
+}
+#section4{
+  background: linear-gradient( 45deg, #FFAB91, #FFCC80 );
+}
+#section5{
+  background: linear-gradient( 45deg, #80D8FF, #82B1FF );
+}
+#section6{
+  background: linear-gradient( 45deg, #FFFFFF, #EEEEEE );;
+}
